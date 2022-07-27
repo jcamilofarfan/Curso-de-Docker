@@ -82,3 +82,11 @@ El empleo de contenedores para construir y desplegar software
 - Imagenes: Son las encapsulaciones de x contenedor. Podemos correr nuestra aplicación en Java por medio de una imagen, podemos utilizar Ubuntu para correr nuestro proyecto, etc.
 - Volumenes de datos: Podemos acceder con seguridad al sistema de archivos de nuestra máquina.
 - Redes: Son las que permiten la comunicación entre contenedores.
+
+
+## Primeros Pasos - Hola Mundo
+
+```
+    docker run hello-world
+```
+
