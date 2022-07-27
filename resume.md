@@ -51,5 +51,18 @@ El empleo de contenedores para construir y desplegar software
     - Escalables: se pueden escalar y desescalar
     - Seguros: se aseguran de que se acceda a los recursos necesarios
 
-[captura](./Captura.png)
+![captura](./Captura.png)
+
+## Preparando tu entorno de Trabajo
+
+- [Download Docker](https://www.docker.com/get-started/)
+- [Cent OS](https://docs.docker.com/engine/install/centos/)
+- [Debian](https://docs.docker.com/engine/install/debian/)
+- [Fedora](https://docs.docker.com/engine/install/fedora/)
+- [Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+
+[Docker Hub](https://hub.docker.com/)
+
+#### Docker Desktop
+ - Resources: configurar los recursos de la maquina
 
