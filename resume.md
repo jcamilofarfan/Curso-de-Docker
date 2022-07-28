@@ -85,7 +85,6 @@ El empleo de contenedores para construir y desplegar software
 
 
 ## Primeros Pasos - Hola Mundo
-
 ```
     docker run hello-world
 ```
@@ -95,4 +94,29 @@ El empleo de contenedores para construir y desplegar software
 - Es una entidad Logica que corre de manera nativa en una máquina.
 - Limitada que cosas puede ver o acceder, contando disco, memoria y cpu.
 
+## Comprendiendo el estado de Docker
 
+```
+    # descargo (Si no lo tengo) y corro el contenedor
+    docker run <contenedor>
+    
+    # Listado de contenedores
+    docker ps
+    docker ps -a
+    
+    # Detalles de un contenedor
+    docker inspect <id>
+    docker inspect <name>
+
+    #Corriendo contenedor con nombre personalizado
+    docker run --name <name> <contenedor>
+
+    #Cambien el nombre del contenedor
+    docker rename <id>|<name> <nuevo-nombre>
+
+    #Eliminando un contenedor
+    docker rm <id>|<name>
+
+    #Eliminando todos los contenedores detenidos
+    docker container prune
+```
