@@ -90,3 +90,9 @@ El empleo de contenedores para construir y desplegar software
     docker run hello-world
 ```
 
+## Conceptos fundamentales de Docker:
+### contenedores
+- Es una entidad Logica que corre de manera nativa en una máquina.
+- Limitada que cosas puede ver o acceder, contando disco, memoria y cpu.
+
+
